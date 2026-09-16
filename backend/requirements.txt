@@ -1,0 +1,23 @@
+# Web Framework & ASGI Server
+fastapi==0.115.6                 # High-performance async web framework for LMS REST APIs
+uvicorn[standard]==0.34.0        # Lightning-fast ASGI web server to run FastAPI
+
+# Data Validation & Environment Settings
+pydantic==2.10.4                 # Data validation and strict type enforcement for API requests/responses
+pydantic-settings==2.7.0         # Loads and validates environment variables from .env
+
+# Database (PostgreSQL)
+sqlalchemy==2.0.36               # SQL toolkit and Object Relational Mapper (ORM)
+asyncpg==0.30.0                  # High-performance async PostgreSQL driver for non-blocking queries
+psycopg2-binary==2.9.10          # Synchronous PostgreSQL driver used by Alembic migrations
+alembic==1.14.0                  # Database schema migration manager
+greenlet>=3.1.1                  # Required for SQLAlchemy async engine and run_sync
+
+# Security & Authentication
+python-jose[cryptography]==3.3.0 # JWT token generation, verification, and Azure AD SSO validation
+passlib[bcrypt]==1.7.4           # Secure password hashing (bcrypt algorithm)
+
+# File Uploads & Networking
+python-multipart==0.0.20         # Form-data parser for video and document uploads
+httpx==0.28.1                    # Async HTTP client for calling external APIs (Microsoft Graph / Teams)
+email-validator>=2.0.0           # Validates email formatting during user registration

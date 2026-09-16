@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+.env.*
+!.env.example
+frontend/node_modules/
+frontend/.next/
+backend/uploads/videos/*
+*.log

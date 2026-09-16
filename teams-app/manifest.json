@@ -1,0 +1,53 @@
+{
+  "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.16/MicrosoftTeams.schema.json",
+  "manifestVersion": "1.16",
+  "version": "1.0.4",
+  "id": "0f8cde9e-63d3-40a9-b007-c088a6faf9e5",
+  "packageName": "com.algolms.enterprise",
+  "developer": {
+    "name": "AlgoLMS Team",
+    "websiteUrl": "https://agricultural-selecting-pearl-trained.trycloudflare.com",
+    "privacyUrl": "https://agricultural-selecting-pearl-trained.trycloudflare.com",
+    "termsOfUseUrl": "https://agricultural-selecting-pearl-trained.trycloudflare.com"
+  },
+  "icons": {
+    "color": "color.png",
+    "outline": "outline.png"
+  },
+  "name": {
+    "short": "AlgoLMS",
+    "full": "AlgoLMS Enterprise Learning Platform"
+  },
+  "description": {
+    "short": "Gatekept Enterprise Learning Management System",
+    "full": "Complete learning workspace with anti-skip video verification, telemetry tracking, and assessment grading inside Microsoft Teams."
+  },
+  "accentColor": "#059669",
+  "staticTabs": [
+    {
+      "entityId": "algolms-dashboard",
+      "name": "My Learning",
+      "contentUrl": "https://agricultural-selecting-pearl-trained.trycloudflare.com/dashboard",
+      "websiteUrl": "https://agricultural-selecting-pearl-trained.trycloudflare.com/dashboard",
+      "scopes": ["personal"]
+    },
+    {
+      "entityId": "algolms-courses",
+      "name": "Courses",
+      "contentUrl": "https://agricultural-selecting-pearl-trained.trycloudflare.com",
+      "websiteUrl": "https://agricultural-selecting-pearl-trained.trycloudflare.com",
+      "scopes": ["personal"]
+    }
+  ],
+  "permissions": ["identity"],
+  "validDomains": [
+    "agricultural-selecting-pearl-trained.trycloudflare.com",
+    "*.trycloudflare.com",
+    "login.microsoftonline.com",
+    "images.unsplash.com"
+  ],
+  "webApplicationInfo": {
+    "id": "67d0ee58-c22f-405f-b275-fd9ac185a281",
+    "resource": "api://agricultural-selecting-pearl-trained.trycloudflare.com/67d0ee58-c22f-405f-b275-fd9ac185a281"
+  }
+}
